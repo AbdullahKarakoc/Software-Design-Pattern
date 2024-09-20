@@ -75,11 +75,20 @@ EmployeeM2 GenerateEmployee(string fullName, string emailAddress, int empType)
 
 
 
+//testt
+
 //   DECORATOR PATTERN
 
-
+/*
 AppleLaptop al = new AppleLaptop();
 al.CloseLid();
 
 DellLaptop dl = new();
-dl.CloseLid();
+dl.CloseLid();  
+*/
+
+
+
+//   SINGLETON PATTERN
+
+
