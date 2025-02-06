@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BuilderPattern\\Method1",
+    "\\BuilderPattern\\Method2",
+    "\\DecoratorPattern\\Computers",
+    "\\SingletonPattern",
+    "\\SingletonPattern\\Models"
+  ],
+  "SelectedNode": "\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

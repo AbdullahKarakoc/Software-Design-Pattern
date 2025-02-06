@@ -3,7 +3,7 @@ using BuilderPattern.Method1;
 using SoftwareDesignPattern.SoftwareDesignPattern.BuilderPattern.Method1;
 using SoftwareDesignPattern.SoftwareDesignPattern.BuilderPattern.Method2;
 using SoftwareDesignPattern.SoftwareDesignPattern.DecoratorPattern.Computers;
-
+using SoftwareDesignPattern.SoftwareDesignPattern.SingletonPattern.Models;
 
 //  BUILDER PATTERN
 
@@ -91,4 +91,12 @@ dl.CloseLid();
 
 //   SINGLETON PATTERN
 
+var countryProvider = new CountryProvider();
+
+var countries = countryProvider.GetCountries();
+
+foreach (var country in countries)
+{
+    System.Console.WriteLine(country.Name);
+}
 
